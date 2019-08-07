@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: #222f3e;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e272e;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.nav-icon {
+    font-size: 2.5em;
+    margin: 0 15px;
+}
+
+.square-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.square:nth-child(10n+1) {
+    background-color: #FEA47F;
+}
+
+.square:nth-child(10n+2) {
+    background-color: #25CCF7;
+    color: #333;
+}
+
+.square:nth-child(10n+3) {
+    background-color: #EAB543;
+}
+
+.square:nth-child(10n+4) {
+    background-color: #55E6C1;
+    color: #333;
+}
+
+.square:nth-child(10n+5) {
+    background-color: #F97F51;
+    color: #333;
+}
+
+.square:nth-child(10n+6) {
+    background-color: #CAD3C8;
+}
+
+.square:nth-child(10n+7) {
+    background-color: #FC427B;
+}
+
+.square:nth-child(10n+8) {
+    background-color: #F8EFBA;
+    color: #333;
+}
+
+.square:nth-child(10n+9) {
+    background-color: #58B19F;
+}
+
+.square:nth-child(10n+10) {
+    background-color: #182C61;
+}
+
+/* Full menu */
+
+.full-menu {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.full-menu ul {
+    list-style: none;
+}
+
+.full-menu li {
+    color: #fff;
+    margin: 10px 0;
+}
+
+/* Footer */
+
+.footer {
+    margin: 20px 0 20px;
+    color: #58B19F;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+/* Common class */
+
+.material-icons {
+    color: #fff;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+.hidden-visible {
+    visibility: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .square {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    nav {
+        margin-bottom: 50px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

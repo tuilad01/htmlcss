@@ -1,0 +1,13 @@
+{
+  "name": "listnew-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --port 3002 --files \"*\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
