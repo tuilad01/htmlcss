@@ -7,22 +7,44 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
     width: 100%;
     background-color: #222f3e;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     background: #1e272e;
     height: 60px;
-    margin-bottom: 20px;
+}
+
+.title {
+    color: #fff;
+    font-weight: bold;
 }
 
 .nav-icon {
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0 15px;
+    cursor: pointer;
+}
+
+.nav-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70px;
+    background-color: #2c3e50;
+    margin-bottom: 20px;
 }
 
 .square-container {
@@ -93,24 +115,49 @@ nav {
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 99;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #487eb0;
+    width: 100%;
 }
+
+.full-menu>main {
+    /* width: 100%; */
+    padding: 10px;
+}
+
 .full-menu ul {
     list-style: none;
 }
 
-.full-menu li {
+.full-menu li>a {
+    display: block;
     color: #fff;
-    margin: 10px 0;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.title-menu {
+    display: block;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 0;
+    text-transform: uppercase;
 }
 
 /* Footer */
 
+.space-footer {
+    height: 60px;
+}
+
 .footer {
-    margin: 20px 0 20px;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
     color: #58B19F;
     font-style: italic;
     font-size: 0.7em;
@@ -118,8 +165,86 @@ nav {
 
 /* Common class */
 
+.split-horizon {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .material-icons {
     color: #fff;
+    user-select: none;
+}
+
+.icon-clickable {
+    cursor: pointer;
+    border-radius: 50%;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.icon-clickable:active {
+    color: #333;
+    background-color: #fafafa;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.button {
+    border: none;
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #333;
+    background-color: #f5f6fa;
+    box-shadow: 0 0 4px #7d8286;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.button:hover {
+    background: #fafafa radial-gradient(circle, transparent 1%, #fafafa 1%) center/15000%;
+}
+
+.button:active {
+    background-color: #222f3e;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    padding: 7px 20px;
+    margin: 5px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    background-color: #f5f6fa;
+    /* box-shadow: 0 0 4px #7d8286; */
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.button-icon:hover {
+    border-radius: 25px;
+    background: #fafafa radial-gradient(circle, transparent 1%, #fafafa 1%) center/15000%;
+}
+
+.button-icon:active {
+    background-color: #222f3e;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.button-icon>.material-icons {
+    color: #333;
+    margin-right: 5px;
 }
 
 .float-right {
@@ -137,6 +262,7 @@ nav {
 .hidden {
     display: none;
 }
+
 .hidden-visible {
     visibility: hidden;
 }
@@ -145,10 +271,18 @@ nav {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
+@media (min-width: 576px) {    
     .square {
         width: 250px;
         height: 250px;
@@ -157,12 +291,16 @@ nav {
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    nav {
+    .nav-control {
         margin-bottom: 50px;
     }
 }

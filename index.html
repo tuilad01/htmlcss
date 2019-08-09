@@ -8,23 +8,56 @@
     <title>Document</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
         <div class="float-left hidden-visible">
-            <i class="material-icons nav-icon">
+            <i class="material-icons nav-icon icon-clickable">
                 keyboard_arrow_left
             </i>
         </div>
-        <div class="float-right">
-            <i class="material-icons nav-icon">
+        <div class="text-center">
+            <p class="title">Word</p>
+        </div>
+
+        <div class="float-right text-right">
+            <i class="material-icons nav-icon icon-clickable">
                 menu
             </i>
         </div>
     </nav>
+    <div class="nav-control">
+        <button class="button-icon">
+            <i class="material-icons">
+                cached
+            </i>
+            <span>Reset</span>
+        </button>
+        <button class="button-icon">
+            <i class="material-icons">
+                save
+            </i>
+            <span>Save</span>
+        </button>
+        <button class="button-icon">
+            <i class="material-icons">
+                skip_next
+            </i>
+            Next
+        </button>
+
+        <!-- <i class="material-icons">
+                            save
+                            </i>
+
+        <i class="material-icons">
+                                    skip_next
+                                    </i> -->
+
+    </div>
 
     <section>
         <main class="square-container">
@@ -71,27 +104,25 @@
     </section>
 
     <section class="full-menu hidden">
-        <main>
+        <main class="container">
+            <div class="split-horizon">
+                <a href="#" class="title-menu">voluptate repreh</a>
+            </div>
             <ul>
-                <li>Category 1</li>
-                <li>Category 2</li>
-                <li>Category 3</li>
-                <li>Category 4</li>
-                <li>Category 5</li>
-                <li>Category 6</li>
-                <li>Category 7</li>
-                <li>Category 8</li>
-                <li>Category 9</li>
-                <li>Category 10</li>
-                <li>Category 11</li>
+                <li><a href="#">Word</a></li>
+                <li><a href="#">Group</a></li>
             </ul>
         </main>
     </section>
+
+    <div class="space-footer"></div>
 
     <footer class="footer text-center">
         <p>Copyright @ 2019 TPHCM VIETNAM, DTRUONGTAN Company, Inc.</p>
         <p>All rights reserved.</p>
     </footer>
+
+    
 </body>
 
 </html>
