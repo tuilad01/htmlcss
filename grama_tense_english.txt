@@ -1,0 +1,52 @@
+Past Simple
+
+S+V2/ed
+S+did+not+V0
+did+S+V0?
+
+S+was/were
+S+was/were+not
+was/were+S+...?
+
+Past Continuous
+
+S+was/were+V-ing
+S+was/were+not+V-ing
+was/were+S+V-ing
+
+Past Perfect
+
+S+had+V2/ed
+S+had+not+V2/ed
+had+S+v2/ed?
+
+Past Perfect Continuous
+
+S+had+been+V-ing
+S+had+been+not+V-ing
+had+S+been+V-ing?
+
+Future Simple
+
+S+will+V0
+S+will+not+V0
+will+S+V0?
+
+Future Continuous
+
+S+will+be+V-ing
+S+will+not+be+V-ing
+will+S+be+V-ing?
+
+Future Perfect
+
+S+will+have+V3/ed
+S+will+not+have+V3/ed
+Will+S+have+V3/ed?
+
+Future Perfect Continuous
+
+S+will+have+been+V-ing
+S+will+not+have+been+V-ing
+will+S+have+been+V-ing?
+
