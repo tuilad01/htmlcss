@@ -1,3 +1,31 @@
+Present Simple
+
+S+V0/s/es
+S+do/does(not)+ V0
+Do/does+S+V0?
+
+S+Vbe
+S+Vbe+not
+Vbe+S+late?
+
+Present Continuous 
+
+S+Vbe+V-ing
+S+Vbe+not+V-ing
+Vbe+S+V-ing?
+
+Present Perfect Tense
+
+S+have/has+V2/ed
+S+have/has+not+V2/ed
+have/has+S+V2/ed?
+
+Present Perfect Continuous
+
+S+have/has+been+V-ing
+S+have/has+not+been+V-ing
+have/has+S+been+V-ing?
+
 Past Simple
 
 S+V2/ed
