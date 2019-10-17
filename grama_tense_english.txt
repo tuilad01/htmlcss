@@ -8,23 +8,85 @@ S+Vbe
 S+Vbe+not
 Vbe+S+late?
 
+Usage:
+We use the Present Simple tense when:
+the action is general
+the action happens all the time, or habitually, in the past, present and future
+the action is not only happening now
+the statement is always true
+
+Examples:
+
+I live in New York.
+The Moon goes round the Earth.
+John drives a taxi.
+He does not drive a bus.
+We meet every Thursday.
+We do not work at night.
+Do you play football?
+
 Present Continuous 
 
 S+Vbe+V-ing
 S+Vbe+not+V-ing
 Vbe+S+V-ing?
 
+Usage:
+We use the Present Continuous to talk about:
+action happening now
+action in the future
+
+Examples:
+Muriel is learning to drive.
+I am living with my sister until I find an apartment.
+
+
 Present Perfect Tense
 
-S+have/has+V2/ed
-S+have/has+not+V2/ed
-have/has+S+V2/ed?
+S+have/has+V3/ed
+S+have/has+not+V3/ed
+have/has+S+V3/ed?
+
+Usage:
+This tense is called the Present Perfect tense. There is always a connection with the past and with the present.
+There is always a connection with the past and with the present
+We use the Present Perfect to talk about:
+experience
+change
+continuing situation
+
+
+Example:
+I have seen an alien.
+He has lived in Bangkok.
+Have you been there?
+We have never eaten caviar.
+
 
 Present Perfect Continuous
 
 S+have/has+been+V-ing
 S+have/has+not+been+V-ing
 have/has+S+been+V-ing?
+
+Usage:
+This tense is called the Present Perfect Continuous tense. There is usually a connection with the present or now.
+
+We use the Present Perfect Continuous to talk about:
+
+past action recently-stopped
+past action still-continuing
+
+Examples:
+for past action just stopped
+I'm tired [now] because I've been running.
+Why is the grass wet [now]? Has it been raining?
+You don't understand [now] because you haven't been listening.
+for past action continuing now:
+I have been reading for 2 hours. (I am still reading now.)
+We've been studying since 9 o'clock. (We're still studying now.)
+How long have you been learning English? (You are still learning now.)
+We have not been smoking. (And we are not smoking now.)
 
 Past Simple
 
@@ -36,17 +98,66 @@ S+was/were
 S+was/were+not
 was/were+S+...?
 
+Usage:
+We use the Past Simple tense to talk about an action or a situation - an event - in the past. The event can be short or long.
+In general, if we say the past time or place of the event, we must use the Past Simple tense; we cannot use the present perfect.
+
+Examples:
+I lived in that house when I was young.
+He didn't like the movie.
+What did you eat for dinner?
+John drove to London on Monday.
+Mary did not go to work yesterday.
+Did you play tennis last week?
+I was at work yesterday.
+We were not late (for the train).
+Were you angry?
+
 Past Continuous
 
 S+was/were+V-ing
 S+was/were+not+V-ing
 was/were+S+V-ing
 
+Usage:
+The Past Continuous tense expresses action at a particular moment in the past. The action started before that moment but has not finished at that moment. For example, yesterday I watched a film on TV. The film started at 7pm and finished at 9pm.
+
+Examples:
+When we use the Past Continuous tense, our listener usually knows or understands what time we are talking about. Look at these examples:
+
+I was working at 10pm last night.
+They were not playing football at 9am this morning.
+What were you doing at 10pm last night?
+What were you doing when he arrived?
+She was cooking when I telephoned her.
+We were having dinner when it started to rain.
+Ram went home early because it was snowing.
+
+
 Past Perfect
 
-S+had+V2/ed
-S+had+not+V2/ed
-had+S+v2/ed?
+S+had+V3/ed
+S+had+not+V3/ed
+had+S+V3/ed?
+
+Usage:
+The Past Perfect tense expresses action in the past before another action in the past. This is the past in the past. 
+For example: The train left at 9am. We arrived at 9:15am. When we arrived, the train had left.
+
+We often use the Past Perfect in reported speech after verbs like: said, told, asked, thought, wondered
+Examples:
+
+I wasn't hungry. I had just eaten.
+They were hungry. They had not eaten for five hours.
+I didn't know who he was. I had never seen him before.
+"Mary wasn't at home when I arrived." / "Really? Where had she gone?"
+
+He told us that the train had left.
+I thought I had met her before, but I was wrong.
+He explained that he had closed the window because of the rain.
+I wondered if I had been there before.
+I asked them why they had not finished.
+
 
 Past Perfect Continuous
 
@@ -54,11 +165,49 @@ S+had+been+V-ing
 S+had+been+not+V-ing
 had+S+been+V-ing?
 
+Usage:
+The Past Perfect Continuous tense is like the Past Perfect tense, but it expresses longer actions in the past before another action in the past. For example:
+
+Ram started waiting at 9am. I arrived at 11am. When I arrived, Ram had been waiting for two hours.
+
+Examples:
+John was very tired. He had been running.
+I could smell cigarettes. Somebody had been smoking.
+Suddenly, my car broke down. I was not surprised. It had not been running well for a long time.
+Had the pilot been drinking before the crash?
+
 Future Simple
 
 S+will+V0
 S+will+not+V0
 will+S+V0?
+
+Usage:
+No Plan
+We use the Future Simple tense when there is no plan or decision to do something before we speak. We make the decision spontaneously at the time of speaking. Look at these examples:
+
+Hold on. I'll get a pen.
+We will see what we can do to help you.
+Maybe we'll stay in and watch television tonight.
+In these examples, we had no firm plan before speaking. The decision is made at the time of speaking.
+
+We often use the Future Simple tense with the verb to think before it:
+
+I think I'll go to the gym tomorrow.
+I think I will have a holiday next year.
+I don't think I'll buy that car.
+Prediction
+We often use the Future Simple tense to make a prediction about the future. Again, there is no firm plan. We are saying what we think will happen. Here are some examples:
+
+It will rain tomorrow.
+People won't go to Jupiter before the 22nd century.
+Who do you think will get the job?
+Be
+When the main verb is be, we can use the Future Simple tense even if we have a firm plan or decision before speaking. Examples:
+
+I'll be in London tomorrow.
+I'm going shopping. I won't be very long.
+Will you be at work tomorrow?
 
 Future Continuous
 
@@ -66,15 +215,146 @@ S+will+be+V-ing
 S+will+not+be+V-ing
 will+S+be+V-ing?
 
+Usage:
+The Future Continuous tense expresses action at a particular moment in the future. The action will have started before that moment but it will not have finished at that moment. For example, tomorrow I will start work at 2pm and stop work at 6pm. At 4pm tomorrow, I will be working.
+
+Examples:
+When we use the Future Continuous tense, our listener usually knows or understands what time we are talking about. Look at these examples:
+
+I will be playing tennis at 10am tomorrow.
+They won't be watching TV at 9pm tonight.
+What will you be doing at 10pm tonight?
+What will you be doing when I arrive?
+She will not be sleeping when you telephone her.
+We'll be having dinner when the film starts.
+Take your umbrella. It will be raining when you return.
+
 Future Perfect
 
-S+will+have+V3/ed
-S+will+not+have+V3/ed
-Will+S+have+V3/ed?
+S + will + have + V3/ed
+S + will + not + have + V3/ed
+Will + S + have + V3/ed?
+
+Usage:
+The Future Perfect tense expresses action in the future before another action in the future. This is the past in the future. For example:
+
+The train will leave the station at 9am. You will arrive at the station at 9.15am. When you arrive, the train will have left. 
+=>The train will have left when you arrive.
+
+
+Examples:
+You can call me at work at 8am. I will have arrived at the office by 8.
+They will be tired when they arrive. They will not have slept for a long time.
+"Mary won't be at home when you arrive." / "Really? Where will she have gone?"
+
 
 Future Perfect Continuous
 
-S+will+have+been+V-ing
-S+will+not+have+been+V-ing
-will+S+have+been+V-ing?
+S + will + have + been + V-ing
+S + will + note + have + been + V-ing
+will + S + have + been + V-ing?
+
+Usage:
+We sometimes use shall instead of will, especially for I and we.
+
+The Future Perfect Continuous tense is like the Future Perfect tense, but it expresses longer actions or states extending up to some specific event or time in the future. For example:
+
+Ram starts waiting at 9am. I am late and cannot arrive before 10am. Ram will have been waiting for an hour by the time I meet him.
+=> Ram will have been waiting for one hour when I arrive.
+
+Notice that the long action or state can start at any time in the past, present or future, but of course it always ends in the future.
+=> Next Monday we will have been living here for exactly five years.
+
+Examples:
+
+He'll be tired when he gets here. He'll have been travelling all day.
+How long will Jo have been working when he retires?
+Next month I'll have been studying Chinese for two years.
+Will you have been working when I arrive?
+He won't have been studying long enough to qualify.
+Next week Jane is going to swim from England to France. By the time she gets to France she'll have been swimming non-stop for over thirteen hours.
+
+
+
+
+
+
+
+<div class="collapse">
+  <label for="collapse-1">
+    Future Perfect
+    <i class="material-icons">
+      remove
+    </i>      
+  </label>    
+  <input id="collapse-1" type="checkbox">
+  <div class="collapse-main">
+    <h2>Future Perfect</h2>
+   
+     <ol>
+      <li>S + have/has + V3/ed</li>
+      <li>S + have/has + not +V3/ed</li>
+      <li>have/has + S + V3/ed</li>
+    </ol>
+     <h3>Usage</h3>
+    <ul>
+      <li>There is always a connection with the past and with the present</li>
+      <li>We use the Present Perfect to talk about:
+        <ul>
+          <li>experience</li>
+          <li>change</li>
+          <li>continuing situation</li>
+        </ul>
+      </li>
+    </ul>  
+    
+    <h3>Example:</h3>
+    <ul>
+      <li>I have seen an alien.</li>
+      <li>He has lived in Bangkok.</li>
+      <li>Have you been there?</li>
+      <li>We have never eaten caviar.</li>
+      
+    </ul>
+  </div>
+</div>
+
+
+* {
+  margin: 0;
+  paddign: 0;
+}
+.collapse {
+  width: 100%;
+  color: #fff;
+}
+.collapse label {
+  background-color: #636e72;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse > input[type='checkbox'] {
+  display: none;
+}
+
+.collapse input:checked ~ .collapse-main {
+  display: block;
+}
+
+.collapse-active, .collapse label:hover {
+  background-color: #555;
+}
+
+.collapse-main {
+  display: none;
+  color: #333;
+  background-color:#c8d6e5;
+  padding: 20px;
+}
+
+
+
+
 
