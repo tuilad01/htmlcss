@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="public/css/index2.css">
+</head>
+
+<body>
+
+    <section class="component">
+        <div class="component__group-demo">
+            <button class="button button--primary">button 1</button>
+            <button class="button button--info">button 2</button>
+            <button class="button button--danger">button 3</button>
+            <button class="button">button 4</button>
+            <button class="button" disabled>button disable</button>
+            <button class="button button--loading" disabled>
+                <span class="material-icons loading__icon">
+                    refresh
+                </span>
+                button loading
+            </button>
+            <a href="#" class="button button--link">button link</a>
+
+            <div class="tool-tip">
+                <button class="button button--icon tool-tip__button">
+                    <span class="material-icons">
+                        help
+                    </span>
+                    tooltip button
+                </button>
+                <div class="tool-tip__box">
+                    <span class="tool-tip__text">tool tip content</span>
+                </div>
+            </div>
+
+            <details class="dropdown">
+                <summary class="dropdown__summary">Dropdown</summary>
+                <ul class="dropdown__list">
+                  <li class="dropdown__item">Item 1</li>
+                  <li class="dropdown__item">Item 2</li>
+                  <li class="dropdown__item">Item 3</li>
+                  <li class="dropdown__item">Item 4</li>
+                </ul>
+              </details>
+        </div>
+
+        <div class="component__group-demo">
+            <div class="badge badge--primary">
+                <span class="material-icons badge__icon" style="color:#ffa502">
+                    account_box
+                </span>
+                <span class="badge__value">12</span>
+            </div>
+
+            <div class="badge badge--info">
+                <span class="material-icons badge__icon" style="color:#ffa502">
+                    notifications
+                </span>
+                <span class="badge__value">23</span>
+            </div>
+
+            <div class="badge badge--danger" style="color:#ffa502">
+                <span class="material-icons badge__icon">
+                    wifi
+                </span>
+                <span class="badge__value">3</span>
+            </div>
+
+            <div style="margin-left:1rem">
+                <div class="tool-tip tool-tip--icon">
+                    <span class="material-icons tool-tip__icon">
+                        help
+                    </span>
+                    <div class="tool-tip__box">
+                        <span class="tool-tip__text">tool tip content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component__group-demo">
+            <input type="checkbox" class="hidden alert__checkbox-hidden" id="alert1">
+            <div class="alert alert--primary">
+                <p class="alert__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et culpa dicta
+                    tempora neque. Excepturi quaerat iusto hic ut laboriosam. Fugit minima placeat ab expedita laborum
+                    eaque architecto tenetur illum!
+                </p>
+                <label for="alert1" class="alert__label">
+                    <span class="material-icons alert__close">
+                        clear
+                    </span>
+                </label>
+            </div>
+
+            <input type="checkbox" class="hidden alert__checkbox-hidden" id="alert2">
+            <div class="alert alert--info">
+                <p class="alert__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et culpa dicta
+                    tempora neque. Excepturi quaerat iusto hic ut laboriosam. Fugit minima placeat ab expedita laborum
+                    eaque architecto tenetur illum!</p>
+                <label for="alert2" class="alert__label">
+                    <span class="material-icons alert__close">
+                        clear
+                    </span>
+                </label>
+            </div>
+
+            <input type="checkbox" class="hidden alert__checkbox-hidden" id="alert3">
+            <div class="alert alert--danger">
+                <p class="alert__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et culpa dicta
+                    tempora neque. Excepturi quaerat iusto hic ut laboriosam. Fugit minima placeat ab expedita laborum
+                    eaque architecto tenetur illum!</p>
+                <label for="alert3" class="alert__label">
+                    <span class="material-icons alert__close">
+                        clear
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="component__group-demo">
+            <div class="from">
+                <div class="form__container">
+                    <label class="form__label">Your name:</label>
+                    <input type="text" class="form__input">
+                    <label class="form__label">Email:</label>
+                    <input type="email" class="form__input">
+                    <label for="form__label">Gender:</label>
+                    <div class="from__group">
+                        <label>
+                            Boy
+                            <input type="radio" class="form__input" name="gender" value="boy">
+                        </label>
+                        <label>
+                            Girl
+                            <input type="radio" class="form__input" name="gender" value="girl">
+                        </label>
+                    </div>
+
+                    <label for="">
+                        Date of birth:
+                        <input type="date" class="form__input">
+                    </label>
+
+                    <label for="">User login:</label>
+                    <input type="text" class="form__input">
+
+                    <label for="">Password:</label>
+                    <input type="password" class="form__input">
+
+                    <label for="">Phone number:</label>
+                    <input type="number" class="form__input">
+
+                    <label>Your piture:</label>
+                    <input type="file" class="form__input">
+
+                    <label for="">Favorite color: </label>
+                    <input type="color" class="form__input">
+
+                    <input type="range" class="form__input">
+
+                    <label for="">
+                        <input type="checkbox" class="form__input">
+                        I have read and agree to these terms and conditions.
+                    </label>
+
+                    <div class="form__buttons">
+                        <button class="button">Reset</button>
+                        <button class="button button--primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component__group-demo">
+
+            <input type="checkbox" class="hidden modal__checkbox-hidden" id="modal1">
+            <div class="modal">
+                <div class="modal__title">
+                    <p class="modal__name">Title</p>
+                    <label for="modal1" class="modal__label">
+                        <span class="material-icons modal__close">
+                            clear
+                        </span>
+                    </label>
+                </div>
+                <div class="modal__content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit eum, praesentium hic eius
+                        aperiam doloremque aliquam numquam ea sed ipsum ad excepturi error vitae temporibus
+                        reprehenderit amet voluptate in.</p>
+                </div>
+                <div class="modal__buttons">
+                    <button class="button button--default">Close</button>
+                    <button class="button button--default">Ok</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="component__group-demo">
+            <div>
+                <ul class="list list--hover">
+                    <li class="list__item list__item--selected">item 1</li>
+                    <li class="list__item">item 2</li>
+                    <li class="list__item list__item--disabled">item 3</li>
+                    <li class="list__item">item 4</li>
+                    <li class="list__item">item 5</li>
+                </ul>
+                <ul class="list list--line">
+                    <li class="list__item list__item--selected">item 1</li>
+                    <li class="list__item">item 2</li>
+                    <li class="list__item list__item--disabled">item 3</li>
+                    <li class="list__item">item 4</li>
+                    <li class="list__item">item 5</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="component__group-demo">
+            <div class="wrapper-loading-demo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempora, dolore placeat quae numquam eveniet odit eligendi. A, tempora officia beatae eaque ut laudantium ullam numquam dolorem iusto consequuntur deserunt.</p>
+                <div class="loading loading--icon">
+                    <span class="material-icons">
+                        refresh
+                    </span>
+                    Loading...
+                </div>
+            </div>
+        </div>
+
+        <div class="component__group-demo">   
+            <div class="loading--border">
+                <span></span>
+            </div>
+
+            <div class="loading--border" >
+                <span style="border-color: #7bed9f; border-right-color: transparent;"></span>
+            </div>
+
+            <div class="loading--border">
+                <span style="border-color: #ff4757; border-right-color: transparent;"></span>
+            </div>
+
+            <!-- <div class="loading--flash">
+                <span></span>
+            </div> -->
+        </div>
+
+        <div class="component__group-demo">
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
