@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --toggle-menu-size: 0.25rem;
+  --toggle-menu-color: #333;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  height: 200vh;
+}
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #81ecec;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 1rem 2rem;
+  background-color: #fff;
+}
+
+.toggle-menu {
+  position: relative;
+  display: inline-block;
+  width: calc(var(--toggle-menu-size) * 6);
+  height: calc(var(--toggle-menu-size) * 5);
+  cursor: pointer;
+  user-select: none;
+
+  & > span {
+    position: absolute;
+    top: calc(var(--toggle-menu-size) * 2);
+    display: block;
+    width: 100%;
+    height: var(--toggle-menu-size);
+    background-color: var(--toggle-menu-color);
+    transition: background-color 0.3s;
+
+    &:before,
+    &:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: var(--toggle-menu-size);
+      background-color: var(--toggle-menu-color);
+      transition: top 0.2s, transform 0.2s;
+      transition-delay: 0.2s, 0;
+    }
+
+    &:before {
+      top: calc(var(--toggle-menu-size) * -2);
+    }
+
+    &:after {
+      top: calc(var(--toggle-menu-size) * 2);
+
+      transition: top 0.2s, transform 0.2s;
+      transition-delay: 0.2s, 0;
+    }
+  }
+}
+
+#hcb-menu:checked {
+  & + .toggle-menu {
+    & > span {
+      background-color: rgba(0, 0, 0, 0);
+
+      &:before,
+      &:after {
+        top: 0;
+      }
+
+      &:before {
+        transform: rotate(45deg);
+      }
+
+      &:after {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  & ~ .nav__menu {
+    display: flex;
+    animation-name: roll-down;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+  }
+}
+
+.nav__menu {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  list-style: none;
+}
+
+.nav__dropdown {
+  padding: 1rem 2rem;
+
+  summary {
+    display: flex;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:hover {
+      color: rgb(98, 98, 255);
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  &[open] > summary {
+    color: rgb(98, 98, 255);
+  }
+}
+
+.nav__link {
+  display: block;
+  padding: 1rem 2rem;
+  color: #333;
+  text-decoration: none;
+
+  &:hover {
+    color: rgb(98, 98, 255);
+  }
+}
+
+@media (min-width: 1200px) {
+  .toggle-menu {
+    display: none;
+  }
+  .nav {
+    background-color: initial;
+  }
+  .nav__menu {
+    position: initial;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    background-color: initial;
+  }
+
+  .nav__item {
+    position: relative;
+  }
+
+  .nav__dropdown {
+    & > ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      border-radius: 0.5rem;
+      background-color: #fff;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    &[open] > ul {
+      animation-name: roll-up;
+      animation-duration: 0.3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease;
+    }
+  }
+
+  .nav__dropdown--right {
+    & > ul {
+      position: absolute;
+      top: 0;
+      left: 100% !important;
+    }
+  }
+  .nav__dropdown--left {
+    & > ul {
+      position: absolute;
+      top: 0;
+      right: 100% !important;
+      left: unset;
+    }
+  }
+
+  .menu-fixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    animation-name: roll-down;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+@keyframes roll-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes roll-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// @media (prefers-reduced-motion: reduce) {
+//     * {
+//         animation: none !important;
+//       }
+// }
